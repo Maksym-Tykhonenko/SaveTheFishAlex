@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Montserrat-Regular.ttf",
+      "sha1": "1c8119b38eef1914a4fbd9f6cfdedf198445ab97"
+    },
+    {
+      "path": "src/assets/fonts/Nerko.ttf",
+      "sha1": "16497010793175991f7ebfecd21eb091b122b9e8"
+    },
+    {
+      "path": "src/assets/fonts/NerkoOne-Regular.ttf",
+      "sha1": "16497010793175991f7ebfecd21eb091b122b9e8"
+    }
+  ]
+}

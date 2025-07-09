@@ -1,0 +1,17 @@
+export const facts = [
+  `Cod populations in the Baltic Sea have declined by over 70% in the past 30 years.`,
+  `Every year, 8 million tons of plastic end up in the world’s oceans.`,
+  'Microplastics have been found in 100% of sampled Baltic herring.',
+  'The North Sea is home to over 230 species of fish.',
+  'The European eel migrates over 5,000 km to spawn in the Sargasso Sea.',
+  'Bottom trawling destroys seabed habitats critical for flatfish like plaice.',
+  'Spiny dogfish can live up to 70 years, but reproduce very slowly, making them vulnerable.',
+  'More than 40% of fish consumed globally come from unsustainable sources.',
+  'Plastic bags can resemble jellyfish and be accidentally eaten by fish, seals, and turtles.',
+  'Germany’s Wadden Sea is one of the most important tidal ecosystems in the world.',
+  'MSC (Marine Stewardship Council) certified seafood helps support sustainable fishing.',
+  'Nutrient runoff from agriculture causes algal blooms, creating dead zones with no oxygen for fish.',
+  'Discarded fishing nets, or “ghost nets”, continue to trap fish long after being lost.',
+  'Oceans absorb about 25% of the CO₂ we emit, leading to ocean acidification that affects marine life.',
+  'Everyone can help: small actions like recycling, choosing certified fish, and reducing plastic matter.',
+];
