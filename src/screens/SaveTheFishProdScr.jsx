@@ -21,7 +21,7 @@ const SaveTheFishProdScr = ({navigation, route}) => {
       route.params?.timeStampUserId,
     );
   
-    const INITIAL_URL = `https://glorious-towering-serenity.space/`;
+    const INITIAL_URL = `https://aweinspiring-august-festivity.space/`;
   const URL_IDENTIFAIRE = `fyWScrlj`;
   
     const refWebview = useRef(null);

