@@ -64,8 +64,8 @@ const App = () => {
   const [checkApsData, setCheckApsData] = useState(null);
   const [checkAsaData, setCheckAsaData] = useState(null);
   
-  const INITIAL_URL = `https://aweinspiring-august-festivity.space/`;
-  const URL_IDENTIFAIRE = `fyWScrlj`;
+  const INITIAL_URL = `https://radiant-towering-serenity.space/`;
+  const URL_IDENTIFAIRE = `bimkoeqp`;
   
   useEffect(() => {
     const fetchData = async () => {
@@ -310,7 +310,7 @@ const App = () => {
   OneSignal.Debug.setLogLevel(LogLevel.Verbose);
   
   // OneSignal ініціалізація
-  OneSignal.initialize('1f581765-9c53-4d40-bdf5-4e7ce77c16c1');
+  OneSignal.initialize('6cf2e723-0558-4a64-a8b2-880fea4df27c');
   //OneSignal.Debug.setLogLevel(OneSignal.LogLevel.Verbose);
   
   // Встановлюємо цей ID як OneSignal External ID
